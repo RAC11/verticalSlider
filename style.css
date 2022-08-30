@@ -15,7 +15,8 @@ body {
   position: relative;
   overflow: hidden;
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
+  background-color: #616161;
 }
 
 .left-slide {
@@ -80,7 +81,7 @@ button:focus {
 .slider-container .action-buttons button {
   position: absolute;
   left: 35%;
-  top: 30%;
+  top: 50%;
   z-index: 100;
 }
 
@@ -94,4 +95,22 @@ button:focus {
   transform: translateY(-100%);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+#skills--list {
+  height: 100%;
+  list-style: none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 4;
+  color: #fff;
 }
