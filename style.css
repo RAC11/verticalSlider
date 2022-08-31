@@ -234,18 +234,3 @@ button:focus {
   line-height: 4;
   color: #fff;
 }
-
-.vsFrame--container {
-  height: 600px;
-  width: 600px;
-}
-
-.retro--container {
-  height: 600px;
-  width: 600px;
-}
-
-.randomChoice--container {
-  height: 600px;
-  width: 600px;
-}
